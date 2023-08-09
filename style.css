@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;  
+}
+body{
+    background: black;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./back.jpg) ;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+.sign{
+    margin-left: 5px;
+    color: #fff;
+    font-size: 18px;
+    background: red;
+    height: 31px;
+    width: 79px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 10rem;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px ;
+    
+}
+.scroll{
+    height: 29px;
+    width: 71px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+.main-body{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+    
+
+}
+.heading{
+    margin-top: 15rem;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.main-mail{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    padding: 1.5rem 1rem 0.5rem;
+    line-height: 1.5rem;
+    
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 13px;
+}
+p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin-top: 13px;
+}
+.mail{
+    
+    height: 60px;
+    width: 70px;
+ 
+    
+    
+
+}
+.input-class{
+    background: transparent;
+    color: #fff;
+    height: 3rem;
+    width: 20rem;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    padding-left: 10px;
+
+}
+.started{
+    margin-left: 7rem ;
+    background: red;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 265px;
+    height: 49px;
+    width: 134px;
+    cursor: pointer;
+}
+.started:hover{
+    background: rgb(154, 8, 8);
+    transition: 0.4s ease;
+}
+
+/* section2 */
+
+.tv-card ,.eleven,.saif,.children, .QA-section ,.last-section{
+    border-top: 8px solid rgb(76, 76, 76); 
+}
+.tv-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 58px;
+}
+
+.container2{
+    /* padding: 10px; */
+    font-size: 28px;
+    font-weight: 33;
+}
+
+.tvheading p{
+    margin-top: 13px;
+}
+.eleven{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 65px;
+    
+}
+.saif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px;
+
+}
+.saif-p p{
+    margin-top: 13px;
+}
+.children{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px;
+}
+.children p{
+    margin-top: 13px;
+}
+.QA-section{
+    text-align: center;
+}
+.vidimg{
+    position: relative;
+
+}
+.vidimg video{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.vidimg .vid-1{
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.vidimg-2{
+    position: relative;
+
+}
+.vidimg-2 video{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.vidimg-2 .vid-2{
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.final-but{
+    padding: 1.5rem;
+}
+
+/* button page */
+
+.QA-section{
+    text-align: center;
+     color: white;
+     
+     font-size: 2rem;
+     margin-top: 60px;  
+     padding: 65px;
+     
+}
+.accordion{
+    
+    width: 80%;
+    padding-left: 5px;
+    height: 69px;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    background: rgb(45, 45, 45);
+
+    
+}
+.accordion:hover{
+    background: rgb(91, 89, 89);
+}
+.accordion::after{
+    content: '\002B';
+    float: right;
+    padding-right: 10px;
+    font-weight: bold;
+
+  
+}
+.footer{
+    
+    max-width: 70%;
+    margin: 1rem auto;
+    overflow: auto;
+    margin-top: 4rem;
+
+}
+.footer , .footer a{
+    color: #d7cccc;
+    font-size: 0.9rem;
+ 
+
+}
+.foot-col{
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+    
+  
+}
+.first{
+    list-style: none;
+    line-height: 40px;
+}
+
